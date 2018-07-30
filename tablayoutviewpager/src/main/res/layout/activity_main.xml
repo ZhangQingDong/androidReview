@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--
+    app:tabIndicatorColor    指示器颜色
+    app:tabTextColor         tab栏字体颜色
+    app:tabSelectedTextColor tab栏字体被选颜色
+    app:tabIndicatorHeight   指示器高度
+    app:tabBackground        tab背景颜色
+    app:tabMaxWidth          tab栏最大宽度
+    app:tabTextAppearance    tab栏字体样式
+    app:tabMinWidth          tab栏最小宽度
+    -->
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
